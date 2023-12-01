@@ -4,6 +4,210 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="2023\input\01.txt" />
+    <None Remove="2023\input\01_example.txt" />
+    <None Remove="2023\input\02.txt" />
+    <None Remove="2023\input\02_example.txt" />
+    <None Remove="2023\input\03.txt" />
+    <None Remove="2023\input\03_example.txt" />
+    <None Remove="2023\input\04.txt" />
+    <None Remove="2023\input\04_example.txt" />
+    <None Remove="2023\input\05.txt" />
+    <None Remove="2023\input\05_example.txt" />
+    <None Remove="2023\input\06.txt" />
+    <None Remove="2023\input\06_example.txt" />
+    <None Remove="2023\input\07.txt" />
+    <None Remove="2023\input\07_example.txt" />
+    <None Remove="2023\input\08.txt" />
+    <None Remove="2023\input\08_example.txt" />
+    <None Remove="2023\input\09.txt" />
+    <None Remove="2023\input\09_example.txt" />
+    <None Remove="2023\input\10.txt" />
+    <None Remove="2023\input\10_example.txt" />
+    <None Remove="2023\input\11.txt" />
+    <None Remove="2023\input\11_example.txt" />
+    <None Remove="2023\input\12.txt" />
+    <None Remove="2023\input\12_example.txt" />
+    <None Remove="2023\input\13.txt" />
+    <None Remove="2023\input\13_example.txt" />
+    <None Remove="2023\input\14.txt" />
+    <None Remove="2023\input\14_example.txt" />
+    <None Remove="2023\input\15.txt" />
+    <None Remove="2023\input\15_example.txt" />
+    <None Remove="2023\input\16.txt" />
+    <None Remove="2023\input\16_example.txt" />
+    <None Remove="2023\input\17.txt" />
+    <None Remove="2023\input\17_example.txt" />
+    <None Remove="2023\input\18.txt" />
+    <None Remove="2023\input\18_example.txt" />
+    <None Remove="2023\input\19.txt" />
+    <None Remove="2023\input\19_example.txt" />
+    <None Remove="2023\input\20.txt" />
+    <None Remove="2023\input\20_example.txt" />
+    <None Remove="2023\input\21.txt" />
+    <None Remove="2023\input\21_example.txt" />
+    <None Remove="2023\input\22.txt" />
+    <None Remove="2023\input\22_example.txt" />
+    <None Remove="2023\input\23.txt" />
+    <None Remove="2023\input\23_example.txt" />
+    <None Remove="2023\input\24.txt" />
+    <None Remove="2023\input\24_example.txt" />
+    <None Remove="2023\input\25.txt" />
+    <None Remove="2023\input\25_example.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2023\input\01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\01_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\02_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\03.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\03_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\04.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\04_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\05.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\05_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\06.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\06_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\07.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\07_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\08.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\08_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\09.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\09_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\10_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\11.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\11_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\12.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\12_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\13.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\13_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\14_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\15.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\15_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\16.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\16_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\17.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\17_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\18.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\18_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\19.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\19_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\20.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\20_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\21.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\21_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\22.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\22_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\23.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\23_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\24.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\24_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\25.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2023\input\25_example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.8.0" />
     <PackageReference Include="morelinq" Version="3.3.2" />
     <PackageReference Include="System.Linq" Version="4.3.0" />

@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Advent.y2023;
 
@@ -25,8 +27,8 @@ public class Day01 : Day
                     numbers.Add(c);
                 }
             }
-            var first = numbers[0]; /*det är en char för att det är ett tecken från en sträng*/
-            var last = numbers[^1];
+            var first = numbers.Any() ? numbers[0] : '0';
+            var last = numbers.Any() ? numbers[^1] : '0';
             //var l = numbers.Last(); samma som den ovan
             //var number = first.ToString() + last.ToString(); gör samma som den under
             var num = $"{first}{last}"; //string-interpolering - använda variabler inne i en sträng       
@@ -45,7 +47,37 @@ public class Day01 : Day
     }
     public override object Part2(List<string> input)
     {
-        return 0;
+        var calibrationList = new List<int>();
+        foreach (var row in input)
+        {
+            var pattern = @"\d|one|two|three|four|five|six|seven|eight|nine";
+            var first = Regex.Match(row, pattern).Value;
+            var last = Regex.Match(row, pattern, RegexOptions.RightToLeft).Value;
+            var num = (GetNumber(first)*10) + GetNumber(last);
+
+            using (var fs = new FileStream("result2.csv", FileMode.Append))
+            using (var sw = new StreamWriter(fs))
+                sw.WriteLine($"{row};{first};{last};{num}");
+
+            calibrationList.Add(num);
+        }
+        return calibrationList.Sum();
+    }
+    private int GetNumber (string num)
+    {
+        return num switch
+        {
+            "one" => 1,
+            "two" => 2,
+            "three" => 3,
+            "four" => 4,
+            "five" => 5,
+            "six" => 6,
+            "seven" => 7,
+            "eight" => 8,
+            "nine" => 9,
+            _ => int.Parse(num)
+        };
     }
 }
 
