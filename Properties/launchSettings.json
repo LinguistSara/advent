@@ -2,7 +2,7 @@
   "profiles": {
     "Advent": {
       "commandName": "Project",
-      "commandLineArgs": "--day -1"
+      "commandLineArgs": "--day -1 --useExample"
     }
   }
 }
